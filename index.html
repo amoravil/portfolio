@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- viewport: for responsive  Site-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Andrea Mora</title>
+    <!-- CSS reset: consistency in styles across browsers -->
+    <link rel="stylesheet" scr="//normalize-css.googlecode.com/svn/trunk/normalize.css">
+
+    <!-- Google Fonts API to add fonts to the web page -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-inner">
+        <img class="header-logo" src="images/city.png" alt="iconic view of a cityscape">
+        <h1 class="header-title">
+          Andrea Mora
+        </h1>
+    
+        <!-- Hamburger Menu - Icon to be shown when page is less than 550px width to be responsive-->
+        <a id="menu" class="header-menu">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"/>
+          </svg>
+      </div>
+    </header>
+    
+    <!-- Hamburger Menu - list or bar depend on page width -->
+    <nav id="drawer" class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#">My work</a></li>
+        <li class="nav-item"><a href="#">News</a></li>
+        <li class="nav-item"><a href="#">Blog</a></li>
+        <li class="nav-item"><a href="#">Contact me</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="content">
+        <section class="welcome">
+          <article class="description">
+            <h2>Systems Engineer</h2>
+            <p>"Es mejor perderse que nunca embarcar, Mejor tentarse a dejar de intentar, Aunque ya ves que no es tan fácil empezar"</p>
+          </article>
+        </section>
+
+        <section class="work">
+        </section>
+
+      </section>
+      <footer>
+        <ul>
+          <li><a href="#">Contact me</a></li>
+          <li><a href="#">Follow us on Twitter</a></li>
+          <li><a href="#">2017</a></li>
+        </ul>
+      </footer>
+    </main>
+    
+    <script>
+
+      /*
+       * Open the drawer when the menu ison is clicked.
+       */
+      var menu = document.querySelector('#menu');
+      var main = document.querySelector('main');
+      var drawer = document.querySelector('.nav');
+
+      menu.addEventListener('click', function(e) {
+        drawer.classList.toggle('open');
+        e.stopPropagation();
+      });
+      main.addEventListener('click', function() {
+        drawer.classList.remove('open');
+      });
+
+    </script>
+  </body>
+</html>
