@@ -1,0 +1,10 @@
+Temas a revisar
+___________________________
+
+* Sass
+* Node.js, Bower, Grunt, Gulp
+* HTML5 
+* CSS3
+* SCSS, LESS 
+* Review this video: https://vimeo.com/95734680
+
