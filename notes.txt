@@ -8,3 +8,7 @@ ___________________________
 * SCSS, LESS 
 * Review this video: https://vimeo.com/95734680
 
+
+
+Alinear el titulo a la derecha. o centrado
+Los items del menu se ven en dos columnas. Arreglar a una

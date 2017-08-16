@@ -3,18 +3,7 @@
          hamburger menu
     
 */
-      @media screen and (min-width: 0px) and (max-width: 550px) {
-        
-        /*Title small and keep it in one row with logo*/
-        .header-title{
-          font-size: 2em;
-          margin: 1.25em 0.25em;
-          }
-       
-        .header-inner {
-          width: 450px;
-        } 
-
+      @media screen and (min-width: 0px) and (max-width: 499px) {
        .nav {
           z-index: 10;
           background-color: #fff;
@@ -48,14 +37,37 @@
         }
       }
 
-      @media screen and (min-width: 551px) {
+      @media screen and (min-width: 500px) {
+   
+        .header-logo {
+            height: 75px;
+        }
 
+       .header-title {
+            font-size: 4em;
+            margin: 0.5em 0.25em;
+        }
+
+        .work-dev{
+          order:0;*/
+          width: 100%;
+        }
+        .work-pm, .work-photo{
+            /*order:12;*/
+            width: 50%;
+        }
       }
 
       @media screen and (min-width: 800px) {
-          body {
+        body {
           width: 800px;
           margin-right: auto;
           margin-left: auto;            
         }
+
+        .work-pm, .work-dev, .work-photo {
+          width: 33.3%;
+          order:12;
+        }
+
       }
