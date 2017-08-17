@@ -37,7 +37,7 @@
         }
       }
 
-      @media screen and (min-width: 500px) {
+      @media screen and (min-width: 550px) {
    
         .header-logo {
             height: 75px;
@@ -48,6 +48,10 @@
             margin: 0.5em 0.25em;
         }
 
+        .nav-item {
+/*            text-transform: capitalize;
+*/
+        }
         .work-dev{
           order:0;*/
           width: 100%;
@@ -56,6 +60,7 @@
             /*order:12;*/
             width: 50%;
         }
+
       }
 
       @media screen and (min-width: 800px) {
