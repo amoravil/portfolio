@@ -215,6 +215,11 @@ main {
   text-decoration: none;
 
 }
+
+.work-img {
+  width: 100%;
+}
+
 .work-pm, .work-dev, .work-photo{
   order:12;
    width: 100%;
