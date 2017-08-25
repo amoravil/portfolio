@@ -52,11 +52,12 @@
 /*            text-transform: capitalize;
 */
         }
-        .work-dev{
-          order:0;*/
+        .work-photo{
+          order:0;
           width: 100%;
         }
-        .work-pm, .work-photo{
+
+        .work-pm, .work-dev{
             /*order:12;*/
             width: 50%;
         }
